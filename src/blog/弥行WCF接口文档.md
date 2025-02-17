@@ -1,3 +1,15 @@
+---
+title: '弥行WCF接口调用文档'
+pubDate: 2025-02-13
+description: '此文档为弥行WCF接口调用文档，由服务器开发提供给客户端开发使用'
+author: '弥行W'
+image:
+    url: 'http://www.mission-info.com/images/logo.gif'
+    alt: 'The mission-info logo'
+tags: ["mission-info", "WCF", "API", "Document"]
+---
+
+
 # 调用说明
 此文档为弥行WCF接口调用文档，由服务器开发提供给客户端开发使用。调用这些接口遵循.NET中WCF接口调用方法：
 

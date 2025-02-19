@@ -20,7 +20,7 @@
   </style>
 
 <script is:inline>
-    const theme = (() => {
+      const theme = (() => {
       const localStorageTheme = localStorage?.getItem("theme") ?? '';
       if (['dark', 'light'].includes(localStorageTheme)) {
         return localStorageTheme;
@@ -46,6 +46,8 @@
       const isDark = element.classList.contains("dark");
       localStorage.setItem("theme", isDark ? "dark" : "light");
     }
-  
+  document.addEventListener('astro:after-swap', () => {
     document.getElementById("themeToggle")?.addEventListener("click", handleToggleClick);
+});
+    
   </script>
